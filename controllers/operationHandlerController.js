@@ -8,7 +8,7 @@ try {
         return res.status(400).json({message:"invalid parameters"})
     }
     
-    const result = await model.generateContent(`${q} only answer in one word no back slash /n ok`); 
+    const result = await model.generateContent(`${q} only answer in one line`); 
     const modelRes =  result.response.text() 
     return res.status(200).json({message:`${modelRes}`})
 } catch (error) {

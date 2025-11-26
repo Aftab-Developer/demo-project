@@ -14,7 +14,7 @@ function d (q) {
     console.log(message);  
     setTimeout(() => {
   console.clear()
-    },1300)
+    },3000)
    })
 } 
 
