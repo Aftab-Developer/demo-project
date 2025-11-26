@@ -2,7 +2,7 @@
 function d (q) { 
 
     
-   fetch(`http://localhost:8080/app/do`, {
+   fetch(`https://demo-project-production.up.railway.app/app/do`, {
     method : "POST",
     body: JSON.stringify({q}) ,
     headers: {
